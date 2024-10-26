@@ -61,7 +61,7 @@ Project Link: https://agnesgeller.github.io/Medical-Blog/
 
 ## Link
 
-https://agnesgeller.github.io/Front-End-Web/
+https://agnesgeller.github.io/Medical-Blog/
 
 Screenshot :
 
