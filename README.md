@@ -47,7 +47,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - @your_email - agnesgeller@cyberanalys.com
 
-Project Link: https://agnesgeller.github.io/Front-End-Web/
+Project Link: https://agnesgeller.github.io/Medical-Blog/
 
 ## Acknowledgments
 
@@ -66,4 +66,4 @@ https://agnesgeller.github.io/Front-End-Web/
 Screenshot :
 
 
-![Screenshot (52)](https://github.com/AgnesGeller/Front-End-Web/assets/147996856/9b946d20-cb83-43ea-8791-7f6c9804f5e6)
+![Screenshot (119)](https://github.com/user-attachments/assets/72b597f6-c30b-4d40-9525-19509c6a2be6)
