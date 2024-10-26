@@ -102,3 +102,18 @@ updateClock(); // initial call to display the clock immediately
       });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll('.element');
+
+    elements.forEach(element => {
+        element.addEventListener('mouseenter', () => {
+            element.style.transition = 'transform 0.2s ease-in-out';
+            element.style.transform = 'scale(1.05)';
+        });
+
+        element.addEventListener('mouseleave', () => {
+            element.style.transition = 'transform 0.2s ease-in-out';
+            element.style.transform = 'scale(1)';
+        });
+    });
+});
