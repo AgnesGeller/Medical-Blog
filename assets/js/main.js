@@ -117,3 +117,25 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    // Alap reszponzív funkciók
+    function setResponsive() {
+        const viewportWidth = window.innerWidth;
+        
+        if (viewportWidth <= 768) {
+            // Mobilon
+            document.body.classList.add('mobile');
+            document.body.classList.remove('desktop');
+        } else {
+            // Asztali gépen
+            document.body.classList.add('desktop');
+            document.body.classList.remove('mobile');
+        }
+    }
+
+    // Átállítás ablak átméretezésekor
+    window.addEventListener('resize', setResponsive);
+
+    // Kezdeti beállítás
+    setResponsive();
+});

@@ -262,10 +262,12 @@ img {
     opacity: 0;
 }
 
+
 .team-member:hover .team-member-content {
     opacity: 1;
     bottom: 24px;
 }
+
 
 /* CONTACT */
 #contact {
@@ -336,4 +338,17 @@ footer .line {
     background-color: var(--c-brand);
     color: white;
 }
+
+/* Mobil eszközök */
+body.mobile .nav {
+    display: block;
+    background-color: #fff;
+}
+
+/* Asztali gépek */
+body.desktop .nav {
+    display: flex;
+    background-color: #ccc;
+}
+
 
