@@ -132,7 +132,7 @@ img {
 }
 .btn-main {
     background: linear-gradient(to right,#92b3c6, #2338da);
-    border-radius: none;
+    border-radius: 50%;
     border: ghostwhite;
     font-weight: 700;
     color: #fff;

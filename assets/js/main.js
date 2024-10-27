@@ -117,6 +117,21 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll('.your-class');
+    links.forEach(link => {
+        link.setAttribute('target', '_blank');
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach(button => {
+        button.setAttribute('target', '_blank');
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     // Alap reszponzív funkciók
     function setResponsive() {
